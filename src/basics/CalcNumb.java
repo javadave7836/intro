@@ -3,7 +3,7 @@ package basics;
 public class CalcNumb {
 
 	public static void main(String[] args) {
-		 System.out.println(calcSum(13, 13));
+		 System.out.println(calcSum(13, 15));
 		 printSum(9,9);
 		 printDiv(8,5);
 		// TODO Auto-generated method stub
