@@ -4,8 +4,8 @@ public class CalcNumb {
 
 	public static void main(String[] args) {
 		 System.out.println(calcSum(13, 15));
-		 printSum(9,9);
-		 printDiv(8,5);
+		 System.out.println(calcDiff(9,9));
+		 System.out.println(calcDiv(8,5));
 		// TODO Auto-generated method stub
 
 	}
@@ -14,18 +14,15 @@ static int calcSum(int a, int b) {
 	
 };
 	
-static void printSum(int a, int b) {
-	System.out.println(a + b);
+static int calcDiff(int a, int b) {
+	return a-b;
 	
 };
-static void printDiv(int a, int b) {
-	if (b == 0) {
-		System.out.println("Cannot divide by zero");
-	}
-	else {
-		System.out.println(a / b);
-	}
+static int calcDiv(int a, int b) {
+		return a / b;
+
 	
 	
 };
+
 }
