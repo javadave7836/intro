@@ -8,7 +8,7 @@ public class CheckMarks {
 		gradeStudent(89);
 		gradeStudent(75);
 		gradeStudent(60);
-		gradeStudent(45);
+		gradeStudent(55);
 
 	}
 	static void gradeStudent(int score) {
